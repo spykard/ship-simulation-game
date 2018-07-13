@@ -4,8 +4,10 @@ A Ship Simulation Game in C++.
 
 <img src="https://raw.githubusercontent.com/kardakis/ShipSimulationGame/master/Screenshots/World_Resized.png">
 
-Everything in the Simulation uses the Mersenne Twister number generator instead of C++'s built-in generator ( http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html )
-
+- - -
+Everything in the Simulation uses the Mersenne Twister number generator instead of C++'s built-in generator
+( http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html )
+- - -
 
 <img src="https://raw.githubusercontent.com/kardakis/ShipSimulationGame/master/Screenshots/Stats_Resized.png">
 
