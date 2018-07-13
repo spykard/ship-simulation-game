@@ -2,7 +2,7 @@
 
 A Ship Simulation Game in C++.
 
-![alt text](Screenshots/World.PNG =250x)
+![alt text](Screenshots/World.PNG height="250")
 
 Everything in the Simulation uses the Mersenne Twister number generator instead of C++'s built-in generator ( http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html )
 
