@@ -2,13 +2,13 @@
 
 A Ship Simulation Game in C++.
 
-<img src="https://your-image-url.type" width="500">
+<img src="https://raw.githubusercontent.com/kardakis/ShipSimulationGame/master/Screenshots/World.png" width="500">
 
 Everything in the Simulation uses the Mersenne Twister number generator instead of C++'s built-in generator ( http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html )
 
-![alt text](Screenshots/Stats.PNG)
+<img src="https://raw.githubusercontent.com/kardakis/ShipSimulationGame/master/Screenshots/Stats.png" width="500">
 
-![alt text](Screenshots/Map.PNG)
+<img src="https://raw.githubusercontent.com/kardakis/ShipSimulationGame/master/Screenshots/Map.png" width="500">
 
 Map Size can be as *huge* as the user wants it to be.
 
