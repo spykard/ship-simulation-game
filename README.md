@@ -2,7 +2,7 @@
 
 A Ship Simulation Game in C++.
 
-![alt text](Screenshots/World.PNG height="250")
+![alt text](Screenshots/World.PNG | width=100)
 
 Everything in the Simulation uses the Mersenne Twister number generator instead of C++'s built-in generator ( http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html )
 
@@ -102,11 +102,13 @@ void World::DrawShipsMap(int userShip)
 }
 ```
 
+
 ## Returning which directions are blocked just with 1 Integer    
   
 ```  
 (appendedDirections / 1000 % 10, appendedDirections / 100 % 10, appendedDirections / 10 % 10, appendedDirections % 10)
 ```
+
 
 ## Abilities of each Ship Type:
 
@@ -121,7 +123,8 @@ void World::DrawShipsMap(int userShip)
 
 * Ship::Explorer  :  Has 50% chance of withstanding Environment damage.
     Stats: Damage = 0, Speed = 1, Health = 4, StartingTreasure = 1-35
-    
+   
+   
 ## Abilities of Environment:
 
 * Treasure Chests  :  Can be picked up by Ships
