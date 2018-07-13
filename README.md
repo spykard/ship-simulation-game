@@ -1,6 +1,6 @@
-# Ship Game
+# A Scalable Ship Game
 
-A Ship Simulation Game in C++.
+A Round-Based Ship Simulation Game in C++.
 
 <img src="https://raw.githubusercontent.com/kardakis/ShipSimulationGame/master/Screenshots/World_Resized.png">
 
@@ -18,7 +18,7 @@ Map Size can be as *huge* as the user wants it to be.
 <img src="https://raw.githubusercontent.com/kardakis/ShipSimulationGame/master/Screenshots/BigWorld.png">
 
 
-## Drawing a scalable Grid in C++:
+## Drawing a scalable Grid in C++
 
 ```
 void World::DrawShipsMap(int userShip)
@@ -114,7 +114,7 @@ void World::DrawShipsMap(int userShip)
 ```
 
 
-## Abilities of each Ship Type:
+## Abilities of each Ship Type
 
 * Ship::Pirate & Ship::BigPirate  :  Attacks nearby ships damages them and steals a piece of their treasure.
     Stats: Damage = 1, Speed = 1, Health = 15-20, StartingTreasure = 0 
@@ -129,7 +129,7 @@ void World::DrawShipsMap(int userShip)
     Stats: Damage = 0, Speed = 1, Health = 4, StartingTreasure = 1-35
    
    
-## Abilities of Environment:
+## Abilities of Environment
 
 * Treasure Chests  :  Can be picked up by Ships
      Value: 2
