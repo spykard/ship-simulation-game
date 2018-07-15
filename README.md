@@ -117,25 +117,25 @@ void World::DrawShipsMap(int userShip)
 ## Abilities of each Ship Type
 
 * Ship::Pirate & Ship::BigPirate  :  Attacks nearby ships damages them and steals a piece of their treasure.<br/>
-    Stats: Damage = 1, Speed = 1, Health = 15-20, StartingTreasure = 0 
+&nbsp;&nbsp;&nbsp;&nbsp;Stats: Damage = 1, Speed = 1, Health = 15-20, StartingTreasure = 0 
     
 * Ship::Cargo & Ship::BigCargo  :  Increases the amount of treasure its carrying when next to a Dock.<br/>
-    Stats: Damage = 0, Speed = 1-3, Health = 8, StartingTreasure = 1-40
+&nbsp;&nbsp;&nbsp;&nbsp;Stats: Damage = 0, Speed = 1-3, Health = 8, StartingTreasure = 1-40
 
 * Ship::Repairer  :  Repairs a nearby ship by increasing its health, in exchange for treasure.<br/>
-    Stats: Damage = 0, Speed = 1-3, Health = 9, StartingTreasure = 0, Repair = 3
+&nbsp;&nbsp;&nbsp;&nbsp;Stats: Damage = 0, Speed = 1-3, Health = 9, StartingTreasure = 0, Repair = 3
 
 * Ship::Explorer  :  Has 50% chance of withstanding Environment damage.<br/>
-    Stats: Damage = 0, Speed = 1, Health = 4, StartingTreasure = 1-35
+&nbsp;&nbsp;&nbsp;&nbsp;Stats: Damage = 0, Speed = 1, Health = 4, StartingTreasure = 1-35
    
    
 ## Abilities of Environment
 
 * Treasure Chests  :  Can be picked up by Ships<br/>
-    Value: 2
+&nbsp;&nbsp;&nbsp;&nbsp;Value: 2
 * Docks  :  Damages nearby Ships if they are Pirates, else repairs Ships<br/>
-    Value: 1
+&nbsp;&nbsp;&nbsp;&nbsp;Value: 1
 * Weather  :  Damages a nearby Ship. Weather changes each Round<br/>
-    Value: 1
+&nbsp;&nbsp;&nbsp;&nbsp;Value: 1
      
 * Dead Ships are converted to Treasure Chests
