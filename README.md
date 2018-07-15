@@ -1,21 +1,21 @@
-# ShipSimulationGame
+# Ship Simulation Game
 
 A Scalable Round-Based Ship Game in C++.
 
-<img src="https://raw.githubusercontent.com/spykard/ShipSimulationGame/master/Screenshots/World_Resized.png">
+<img src="https://raw.githubusercontent.com/spykard/Ship-Simulation-Game/master/Screenshots/World_Resized.png">
 
 - - -
 Everything in the Simulation uses the Mersenne Twister number generator instead of C++'s built-in generator
 ( http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/emt.html )
 - - -
 
-<img src="https://raw.githubusercontent.com/spykard/ShipSimulationGame/master/Screenshots/Stats_Resized.png">
+<img src="https://raw.githubusercontent.com/spykard/Ship-Simulation-Game/master/Screenshots/Stats_Resized.png">
 
-<img src="https://raw.githubusercontent.com/spykard/ShipSimulationGame/master/Screenshots/Map_Resized.png">
+<img src="https://raw.githubusercontent.com/spykard/Ship-Simulation-Game/master/Screenshots/Map_Resized.png">
 
 Map Size can be as *huge* as the user wants it to be.
 
-<img src="https://raw.githubusercontent.com/spykard/ShipSimulationGame/master/Screenshots/BigWorld.png">
+<img src="https://raw.githubusercontent.com/spykard/Ship-Simulation-Game/master/Screenshots/BigWorld.png">
 
 
 ## Drawing a scalable Grid in C++
