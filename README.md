@@ -107,7 +107,7 @@ void World::DrawShipsMap(int userShip)
 ```
 
 
-## Returning which directions are blocked just with 1 Integer    
+## Returning which directions are blocked just with a single Integer    
   
 ```  
 (appendedDirections / 1000 % 10, appendedDirections / 100 % 10, appendedDirections / 10 % 10, appendedDirections % 10)
