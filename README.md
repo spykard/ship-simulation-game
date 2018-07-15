@@ -1,6 +1,6 @@
-# A Scalable Ship Game
+# ShipSimulationGame
 
-A Round-Based Ship Simulation Game in C++.
+A Scalable Round-Based Ship Game in C++.
 
 <img src="https://raw.githubusercontent.com/spykard/ShipSimulationGame/master/Screenshots/World_Resized.png">
 
